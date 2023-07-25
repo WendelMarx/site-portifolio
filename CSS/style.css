@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+header {
+    color: aliceblue;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 1% 0% 0 5%;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 15px;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 15px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11pt;
+}
+
+a {
+    cursor: pointer;
+}
+
+.expositor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 20%;
+}
