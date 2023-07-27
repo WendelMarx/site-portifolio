@@ -1,7 +1,10 @@
 body {
     background-color: rgb(20, 20, 20);
 }
-body,header, .expositor {
+
+body,
+header,
+.expositor {
     display: block;
 }
 
