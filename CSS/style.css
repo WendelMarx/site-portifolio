@@ -1,87 +1,105 @@
-body {
-    background-color: rgb(20, 20, 20);
+.main {
+
+    width: 100vw;
+    height: 100vh;
+    background: rgb(6, 29, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body,
-header,
-.expositor {
-    display: block;
+.profile-picture {
+    width: 40%;
 }
 
-header {
-    display: block;
-    float: left;
-    width: 20%;
-    text-align: center;
-    margin: 1% 0% 0 5%;
+.profile {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(100deg, rgb(8, 35, 77) 0%, rgb(7, 32, 69) 150%);
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgb(2, 10, 24);
+    margin-right: 10%;
 }
 
-.pic_profile {
-    padding-top: 15%;
-    width: 200px;
-    height: 200px;
+.social-media {
+    display: flex;
+    justify-content: left;
+    padding-right: 10px;
 }
 
-h1 {
-    color: aliceblue;
+li {
+    padding: 0px 5px 0px 5px;
+}
+
+.display-works {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+header>h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 14pt;
+    color: aliceblue;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.display-works>h1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 10pt;
+    font-size: 1vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 p {
-    color: rgb(139, 139, 139);
-    text-indent: 2em;
-    padding-bottom: 15px;
-    text-align: left;
+    text-align: justify;
+    color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 9pt;
-}
-
-a {
-    cursor: pointer;
-}
-
-.expositor {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em;
-    padding-top: 5%;
-    padding-left: 2%;
-    width: 20%;
+    font-size: 0.8vw;
 }
 
 .box img {
     border-radius: 10px;
 }
 
-footer {
-    clear: both;
-    margin: 1% 0% 0 5%;
-}
-
-.redes_sociais ul {
-    display: flex;
-    justify-content: left;
-}
-
 a {
+    font-size: 0.8vw;
     text-decoration: none;
     color: currentColor;
-}
-
-.redes_sociais ul li {
-    padding-right: 10px;
 }
